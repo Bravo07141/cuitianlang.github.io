@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tianlang CUI — Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-inner">
+            <div class="nav-logo">CUI Tianlang</div>
+            <ul class="nav-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#about">About Me</a></li>
+            </ul>
+            <button class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('active')">☰</button>
+        </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <a href="#skills" onclick="this.parentElement.classList.remove('active')">Skills</a>
+        <a href="#languages" onclick="this.parentElement.classList.remove('active')">Languages</a>
+        <a href="#projects" onclick="this.parentElement.classList.remove('active')">Projects</a>
+        <a href="#education" onclick="this.parentElement.classList.remove('active')">Education</a>
+        <a href="#experience" onclick="this.parentElement.classList.remove('active')">Experience</a>
+        <a href="#about" onclick="this.parentElement.classList.remove('active')">About Me</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-inner">
+            <div class="hero-icon">👨‍💻</div>
+            <p class="hero-subtitle">Computing · Software Engineering · IT Support</p>
+            <p>Hi, I'm</p>
+            <h1 class="hero-name">Tianlang CUI</h1>
+            <p class="hero-desc">
+                A student passionate about software engineering, currently working towards a Bachelor of Science in Computing.
+                With experience as an IT Support Engineer, I am committed to bringing value to teams through excellent communication skills and a positive attitude.
+            </p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">📬 Contact Me</a>
+                <a href="#experience" class="btn btn-outline">View Experience →</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>1+</h3>
+                    <p>Years of Work Experience</p>
+                </div>
+                <div class="stat">
+                    <h3>4</h3>
+                    <p>Programming Languages</p>
+                </div>
+                <div class="stat">
+                    <h3>3</h3>
+                    <p>Languages Spoken</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills</h2>
+                <p>Skills</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>💻 Programming Languages &amp; Technologies</h3>
+                    <div class="skill-bar-group">
+                        <div class="skill-bar-label"><span>Java</span><span>75%</span></div>
+                        <div class="skill-bar"><div class="skill-bar-fill" style="width:75%"></div></div>
+                    </div>
+                    <div class="skill-bar-group">
+                        <div class="skill-bar-label"><span>JavaScript</span><span>80%</span></div>
+                        <div class="skill-bar"><div class="skill-bar-fill" style="width:80%"></div></div>
+                    </div>
+                    <div class="skill-bar-group">
+                        <div class="skill-bar-label"><span>Python</span><span>70%</span></div>
+                        <div class="skill-bar"><div class="skill-bar-fill" style="width:70%"></div></div>
+                    </div>
+                    <div class="skill-bar-group">
+                        <div class="skill-bar-label"><span>PHP</span><span>65%</span></div>
+                        <div class="skill-bar"><div class="skill-bar-fill" style="width:65%"></div></div>
+                    </div>
+                    <div class="skill-bar-group">
+                        <div class="skill-bar-label"><span>HTML / CSS</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="skill-bar-fill" style="width:85%"></div></div>
+                    </div>
+                    <div class="skill-bar-group">
+                        <div class="skill-bar-label"><span>Node.js</span><span>65%</span></div>
+                        <div class="skill-bar"><div class="skill-bar-fill" style="width:65%"></div></div>
+                    </div>
+                    <div class="skill-bar-group">
+                        <div class="skill-bar-label"><span>MySQL</span><span>70%</span></div>
+                        <div class="skill-bar"><div class="skill-bar-fill" style="width:70%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>🛠️ Tools &amp; Software</h3>
+                    <div class="tag-list" style="margin-bottom:2rem;">
+                        <span class="tag">Microsoft Access</span>
+                        <span class="tag">Microsoft Word</span>
+                        <span class="tag">Microsoft Excel</span>
+                        <span class="tag">Microsoft PPT</span>
+                        <span class="tag">Git</span>
+                    </div>
+
+                    <h3>🤝 Soft Skills</h3>
+                    <div class="tag-list" style="margin-bottom:2rem;">
+                        <span class="tag">Communication</span>
+                        <span class="tag">Problem Solving</span>
+                        <span class="tag">Teamwork</span>
+                        <span class="tag">IT Technical Support</span>
+                        <span class="tag">System Maintenance</span>
+                        <span class="tag">Cybersecurity</span>
+                    </div>
+
+                    <h3>📜 Certificates</h3>
+                    <div class="cert-item">
+                        <div class="cert-icon">🏅</div>
+                        <div class="cert-details">
+                            <h4>Putonghua Proficiency Test (Grade B)</h4>
+                            <p>National Language Commission</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Languages -->
+    <section id="languages">
+        <div class="container">
+            <div class="section-title">
+                <h2>Language Proficiency</h2>
+                <p>Languages</p>
+            </div>
+            <div class="lang-grid">
+                <div class="lang-card">
+                    <div class="lang-flag">🇨🇳</div>
+                    <h4>Mandarin</h4>
+                    <p>Native or Bilingual Proficiency</p>
+                    <p class="lang-note">Putonghua Proficiency Test — Grade B</p>
+                </div>
+                <div class="lang-card">
+                    <div class="lang-flag">🇭🇰</div>
+                    <h4>Cantonese</h4>
+                    <p>Native or Bilingual Proficiency</p>
+                </div>
+                <div class="lang-card">
+                    <div class="lang-flag">🇬🇧</div>
+                    <h4>English</h4>
+                    <p>Professional Working Proficiency</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projects</h2>
+                <p>Projects</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3>Online Course system</h3>
+                    <p>This project is a Spring Boot web application for an online course website. It uses Spring MVC, Spring Security, JSP/JSTL, and H2 database storage to manage lectures, course materials, polls, comments, users, and role-based access.</p>
+                    <div class="project-tags">
+                        <span class="tag">JSP</span>
+                        <span class="tag">EL</span>
+                        <span class="tag">JSTL</span>
+                        <span class="tag">H2 Database</span>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3>Fashion Shop Platform</h3>
+                    <p>The project follows an MVC-like structure, using Node.js + Express + EJS to build a fashion e-commerce web platform. Below is a full overview of the files and folders included in the project.</p>
+                    <div class="project-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">EJS</span>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-icon">📱</div>
+                    <h3>SchoolFinderHK</h3>
+                    <p>SchoolFinderHK is a React Native mobile app that transforms Hong Kong Education Bureau open data into an easy-to-use school search tool. Users can search, filter, compare schools across 18 districts, and explore visual analytics — all in one app.。</p>
+                    <div class="project-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">JSON</span>
+                        <span class="tag">API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education</h2>
+                <p>Education</p>
+            </div>
+            <div class="edu-card">
+                <div>
+                    <h4>Bachelor of Science in Computing</h4>
+                    <p>Hong Kong Metropolitan University — Ho Man Tin, Hong Kong</p>
+                </div>
+                <span class="edu-badge current">📖 In Progress — Expected July 2027</span>
+            </div>
+            <div class="edu-card">
+                <div>
+                    <h4>Higher Diploma in Software Engineering</h4>
+                    <p>IVE (Tsing Yi) — Hong Kong</p>
+                </div>
+                <span class="edu-badge">Graduated April 2026</span>
+            </div>
+            <div class="edu-card">
+                <div>
+                    <h4>Foundation Diploma in Information Technology</h4>
+                    <p>IVE (Tsing Yi) — Hong Kong</p>
+                </div>
+                <span class="edu-badge">Graduated July 2022</span>
+            </div>
+            <div class="edu-card">
+                <div>
+                    <h4>Secondary School Graduation</h4>
+                    <p>Lui Ming Choi Memorial Secondary School — Hong Kong</p>
+                </div>
+                <span class="edu-badge">Graduated July 2021</span>
+            </div>
+        </div>
+    </section>
+
+        <!-- Experience -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Work Experience</h2>
+                <p>Experience</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">September 2024 — September 2025</div>
+                    <div class="timeline-title">IT Support Engineer</div>
+                    <div class="timeline-company">HKT — Sham Shui Po, Hong Kong</div>
+                    <ul class="timeline-list">
+                        <li>Installed, configured, tested, and maintained operating systems, application software, and system management tools.</li>
+                        <li>Improved IT system performance by implementing proactive maintenance processes and timely upgrades.</li>
+                        <li>Reduced downtime by rapidly diagnosing and resolving hardware, software, and network issues.</li>
+                        <li>Enhanced user satisfaction through effective communication and timely resolution of support tickets.</li>
+                        <li>Tested new software and hardware before deployment.</li>
+                        <li>Configured and tested new software and hardware.</li>
+                        <li>Strengthened cybersecurity through regular vulnerability assessments and timely patch installations.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>About Me</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am passionate about everything I do. In my view, having passion and good communication skills are the most important aspects of any job — effective communication is essential for building relationships, understanding expectations, and achieving success in any work environment.</p>
+                    <p>I believe that when I am passionate about what I do, I bring enthusiasm and dedication to my work, leading to better outcomes. By combining these qualities, I can make a positive contribution to any team and achieve my goals.</p>
+                    <p>I am currently pursuing a Bachelor of Science in Computing at the Hong Kong Metropolitan University and expect to graduate in 2027.</p>
+                </div>
+                <div class="about-info">
+                    <h3>📋 Basic Information</h3>
+                    <div class="info-item">
+                        <span class="label">📞 Phone</span>
+                        <span class="value">9601 9916</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">📧 Email</span>
+                        <span class="value">cuitianlang@icloud.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">📚 Studying</span>
+                        <span class="value">BSc Computing (MU)</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">🌐 Languages</span>
+                        <span class="value">Cantonese / Mandarin / English</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2026 Tianlang CUI. All rights reserved.
+    </footer>
+
+</body>
+</html>
